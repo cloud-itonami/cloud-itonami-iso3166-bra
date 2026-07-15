@@ -9,5 +9,6 @@
   :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
   :contact-page "https://www.wikidata.org/wiki/Q8678"
   :sourced-from "com-etzhayyim-ooyake gov-units (verbatim where present)"
-  :hq {:line-en "Rio de Janeiro" :country "bra" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q8678" :last-verified "2026-06-04" :sourcing "authoritative"}
+  :hq {:line-en "Brasília" :country "bra" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q2844" :last-verified "2026-07-15" :sourcing "authoritative"}
+  :hq-fix-note "com-etzhayyim-ooyake P36 ingestion bug -- Wikidata Brazil (Q155) capital property (P36) has a multi-claim history (Rio de Janeiro Q8678 until 1960, then Brasília Q2844); ooyake ingested the historical claim. Fixed downstream here only, same class of bug as JPN (commit 15252d7) and DEU (commit 95d48ec); ooyake itself left untouched (out of scope)."
 }
